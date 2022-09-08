@@ -1,0 +1,27 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+* {
+    margin: 0;
+    padding: 0;
+   font-family: Kumbh Sans;
+  }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+/*.list{
+justify-items: center;
+}*/
+
+li {
+   color:hsl(220, 14%, 75%);
+    list-style: none;
+    padding-left: 20px;
+}
+.line{
+     color: blue;
+}
