@@ -25,3 +25,16 @@ li {
 .line{
      color: blue;
 }
+#product1{
+    border-radius:10px ;
+}
+.small-shoes:hover{
+    color:  palevioletred;
+}
+button{
+    color: white;
+    background-color:  hsl(26, 100%, 55%);
+padding: 10px;
+border: none;
+border-radius: 8px;
+}
