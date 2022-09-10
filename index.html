@@ -12,10 +12,9 @@
 </head>
 <body>
     <nav>
-    <div class="logo">
-     <!--<img src="./images/bars-solid.svg"  alt="bars" width="18px" id="bars"/>-->
+     <img src="./images/bars-solid.svg"  alt="bars" width="18px" id="bars"/>
       <img src="./images/logo.svg" alt="logo"/> 
-      </div>
+      
       <div class="list">
         <ul>
           <li>Collections</li>
@@ -23,16 +22,21 @@
            <li>Women</li> 
             <li>About</li> 
             <li>Contact</li> 
-        </ul>
-        <img src="./images/icon-cart.svg" alt="cart"/>
-        <img src="./images/image-avatar.png" alt="avatar" width="26px"/>
-      </div>
+        <li class="nav-img"><img src="./images/icon-cart.svg" alt="cart" /></li>
+        <li><img src="./images/image-avatar.png" alt="avatar" width="35px"/> </li>
+        </ul>  
+    </div>
     </nav>
-    <hr class="line"/>
+
+    <hr/>
+
+<div class="container">
     <div class="main">
-        <img src="./images/image-product-1.jpg" alt="Shoes on display" width="300px" id="product1"/>
+        <img src="./images/image-product-1.jpg" alt="Shoes on display" id="product1"/>
+    </div>
+        <div class="info">
         <h3>
-            Sneaker Company
+            SNEAKER COMPANY
         </h3>
         <h1>
             Fall Limited Edition Sneakers
@@ -40,13 +44,26 @@
         <p>
             These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
         </p>
+        <h2>
+            $125.00  <span class="percent">
+                50%
+            </span>
+            <p class="cancel">
+                $250.00 
+            </p>
+        </h2>
+        <button type="button" id="add-button"><img src="./images/icon-minus.svg" alt="icon" id="minus"> 0
+            <img src="./images/icon-plus.svg" alt="icon" id="plus"/>
+        </button>
+        <button type="button"><img src="./images/icon-cart.svg" alt="cart" id="cart-button"/>Add to cart</button>
     </div>
-    <div class="small-shoes">
-        <img src="./images/image-product-1-thumbnail.jpg"  alt="shoes">
-        <img src="./images/image-product-2-thumbnail.jpg" alt="shoes"/>
-        <img src="./images/image-product-3-thumbnail.jpg"  alt="shoes">
-        <img src="./images/image-product-4-thumbnail.jpg"  alt="shoes">
+</div>
+
+    <div class="shoes">
+        <img src="./images/image-product-1-thumbnail.jpg"  alt="shoes" id="small-shoes">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="shoes" id="small-shoes"/>
+        <img src="./images/image-product-3-thumbnail.jpg"  alt="shoes" id="small-shoes"/>
+        <img src="./images/image-product-4-thumbnail.jpg"  alt="shoes"id="small-shoes">
     </div>
-    <button type="button">Add to cart</button>
-</body>
+   </body>
 </html>
